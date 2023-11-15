@@ -1017,3 +1017,74 @@ box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
     font-weight: 700;
     line-height: 18px; /* 105.882% */
 }
+
+.discover_container {
+    display: flex;
+    align-items:center;
+    margin-top: 100px;
+    width: 1400px;
+    height: 480px;
+margin-left: 20px;
+margin-right: 20px;
+height: 480px;
+flex-shrink: 0;
+border-radius: 36px;
+background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+}
+
+.discover_container img {
+    width: 405px;
+    height: 405px;
+    margin-left: 130px;
+    margin-right: 70px;
+    
+}
+
+.discover_container  .discover-text h2{
+    color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 127.273% */
+    /* width: 763px; */
+}
+
+.discover_container  .discover-text  p{
+    color: var(--4, #FFF);
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 834px;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.discover_container  .discover-text button{
+    width: 240px;
+height: 66px;
+border:none;
+cursor: pointer;
+flex-shrink: 0;
+border-radius: 36px;
+background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+}
+.discover_container  .discover-text button h4 {
+    color: var(--1, #FFF);
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 105.882% */
+width: 240px;
+height: 22px;
+flex-shrink: 0;
+}
+
+.discover_container  .discover-text button:hover{
+    background:#0c5236;
+}
