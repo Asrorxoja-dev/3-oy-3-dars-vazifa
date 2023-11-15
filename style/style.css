@@ -863,7 +863,7 @@ text-transform: uppercase;
 } 
 
 .shopping  .title {
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 50px;
     width: 695px;
     color: var(--1, #1F2428);
@@ -876,4 +876,144 @@ line-height: 56px; /* 127.273% */
 
 .shopping .store {
     display: flex;
+   align-items:center;
+   margin-bottom: 50px;
+}
+
+.shopping .store .shop-tovar h3 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+text-transform: uppercase;
+margin-top: 15px;
+margin-bottom: 8px;
+width: 252px;
+}
+
+.shopping .store .shop-tovar p {
+    width: 328px;
+    height: 61px;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 187.5% */
+}
+
+.shopping .store .shop-tovar span {
+    color: var(--7, #01CD7D);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+}
+
+.shop-stock h3 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+text-transform: uppercase;
+width: 319px;
+margin-top: 10px;
+/* margin-bottom: 10px; */
+}
+
+.shopping .shop-stock p {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 187.5% */
+
+width: 304px;
+}
+
+.shopping .shop-location h3{
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+    text-transform: uppercase;
+    width: 270px;
+    margin-bottom: 10px;
+
+}
+
+.shopping .shop-location p{
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 187.5% */
+width: 297px;
+}
+
+.shopping .shop-deliver h3 {
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+    text-transform: uppercase;
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.shopping .shop-deliver p{
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 187.5% */
+    width: 297px;
+}
+
+
+.shopping  .title-2 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 36px; /* 180% */
+width: 760px;
+margin-bottom: 30px;
+}
+
+.shopping .fast-button{
+    width: 240px;
+height: 66px;
+cursor: pointer;
+border:none;
+flex-shrink: 0;
+border-radius: 36px;
+background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+}
+.shopping .fast-button:hover{
+    background: #0c5236;
+}
+
+.shopping .fast-button h3{
+    color: var(--1, #FFF);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
 }
