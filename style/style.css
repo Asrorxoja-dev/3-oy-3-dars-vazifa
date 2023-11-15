@@ -10,7 +10,7 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     width:100%;
     margin-left: auto;
     margin-right: auto;
@@ -701,4 +701,59 @@ line-height: 18px; /* 105.882% */
 
 .address button:hover{
     background:#1a5f42;
+}
+
+.dostavka_container {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+padding: 20px;
+    width: 1300px;
+height: 104px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--5, #FFF);
+box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+.dostavka .title{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    width: 651px;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 155.556% */
+}
+.dostavka_container .pochta_rossia{
+    display: flex;
+    gap: 60px;
+   
+}
+.dostavka_container .pochta_rossia img {
+    /* padding-left: 20px; */
+    width: 52px;
+    height: 52px;
+}
+.dostavka_container .pochta_rossia h2 {
+    padding-top: 10px;
+    padding-right: 200px;
+}
+.dostavka_container .text {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items:center;
+   
+}
+.dostavka_container hr {
+    width: 0px;
+height: 82px;
+flex-shrink: 0;
+
+stroke-width: 1px;
+stroke: var(--5, #C0C9D7);
 }
