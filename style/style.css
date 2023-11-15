@@ -352,13 +352,14 @@ flex-shrink: 0;
 
 .main .main-text {
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 .main .main-img-1  .shirt{
     width: 110px;
 height: 112px;
 flex-shrink: 0;
+/* margin-left: 50px; */
 }
 
 .main .main-img-1 .vector {
