@@ -673,7 +673,7 @@ top: 27px;
 .address button {
     position: absolute;
     top: 3770px;
-    right: 850px;
+    right: 1000px;
     margin-top: 30px;
 border:none;
 transition: all 0,5s;
@@ -1365,9 +1365,9 @@ line-height: 26px; /* 162.5% */
 width: 327px;
 margin-top: 10px;
 }
-.blogers-1 .dmitriy-text {
+
   
-}
+
 .blogers-1 .dmitriy-text .text h3 {
     width: 43px;
     height: 48px;
