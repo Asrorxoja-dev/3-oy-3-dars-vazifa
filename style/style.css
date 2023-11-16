@@ -1541,7 +1541,9 @@ align-items:center;
 .blogers button:hover{
     background:#0c5236;
 }
-
+.words {
+    margin-bottom: 150px;
+}
 .words_container h2 {
     color: var(--1, #1F2428);
 font-family: Gilroy;
@@ -1553,6 +1555,7 @@ width: 1173px;
 margin-bottom: 15px;
 }
 .words_container p {
+    font-family: "hind Siliguri";
     width: 1400px;
     color: var(--1, #1F2428);
 font-family: Gilroy;
@@ -1560,4 +1563,93 @@ font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 36px; /* 200% */
+
+}
+.email{
+    border-radius: 36px;
+background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+display: flex;
+margin-bottom: 50px;
+    width: 1800px;
+height: 250px;
+
+}
+
+.email_container .text h2{
+    color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+    width: 482px;
+   
+}
+
+.email_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    padding-left: 100px;
+    padding-right: 200px;
+   align-items:center;
+}
+
+.email_container .enter-email hr{
+    width: 513px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--4, #FFF);
+    margin-top: 20px;
+}
+
+.email_container .enter-email  {
+    color: var(--4, #FFF);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 16px; /* 100% */
+margin-left: 150px;
+border:none;
+background-color:none;
+}
+.email_container .enter-email .placeholder text{
+    color:#FFF;
+    
+}
+.email_container .enter-email input {
+    
+border:none;
+}
+.email_container .enter-email img {
+    position:relative;
+    top: 7px;
+    margin-right: 20px;
+}
+
+.email_container .button button{
+    margin-left: 60px;
+    width: 240px;
+height: 66px;
+border:none;
+flex-shrink: 0;
+    border-radius: 36px;
+background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+cursor: pointer;
+}
+
+.email_container .button button h4 {
+    color: var(--1, #FFF);
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 105.882% */
+}
+
+.email_container .button button:hover{
+    background:#0c5236;
 }
