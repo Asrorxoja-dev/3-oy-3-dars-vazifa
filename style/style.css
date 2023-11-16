@@ -1240,3 +1240,324 @@ box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
     gap: 20px;
     margin-bottom: 100px;
 }
+.blogers h2 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 155.556% */
+width: 651px;
+margin-bottom: 50px;
+margin-left: 100px;
+}
+
+.blogers-1 {
+    display: flex;
+   gap: 20px;
+   margin-bottom: 40px;
+}
+
+.blogers-1  .nikolay {
+    display: flex;
+    width: 655px;
+height: 260px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--5, #FFF);
+box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+.blogers-1  .nikolay img {
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blogers-1  .nikolay h3 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 111.111% */
+margin-top: 40px;
+margin-bottom: 6px;
+}
+
+.blogers-1 .nikolay-text p {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 162.5% */
+margin-top: 15px;
+}
+
+.blogers-1 .nikolay-text .text {
+    display: flex;
+}
+
+.blogers-1 .nikolay-text .text h3 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+width: 43px;
+height: 48px;
+
+}
+
+.blogers-1 .nikolay-text .text p {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 171.429% */
+width: 118px;
+height: 48px;
+margin-top: 40px;
+align-items:center;
+}
+
+.blogers-1 .dmitriy{
+    display: flex;
+    width: 655px;
+height: 260px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--5, #FFF);
+box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.blogers-1 .dmitriy-img img {
+    width: 240px;
+height: 240px;
+flex-shrink: 0;
+margin-right: 40px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.blogers-1 .dmitriy-text h3 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 111.111% */
+width: 162px;
+margin-top: 40px;
+margin-bottom: 6px;
+}
+
+
+.blogers-1 .dmitriy-text p{
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 162.5% */
+width: 327px;
+margin-top: 10px;
+}
+.blogers-1 .dmitriy-text {
+  
+}
+.blogers-1 .dmitriy-text .text h3 {
+    width: 43px;
+    height: 48px;
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+
+.blogers-1 .dmitriy-text .text {
+    display: flex;
+   
+}
+.blogers-1 .dmitriy-text .text p {
+    width: 97px;
+    height: 48px;
+    margin-top: 37px;
+}
+
+.blogers-2 {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+.blogers-2 .Vladimir {
+    display: flex;
+    width: 655px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.blogers-2 .vladimir-img img {
+    width: 240px;
+    height: 240px;
+    flex-shrink: 0;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blogers-2 .vladimir-text h3 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 111.111% */
+width: 162px;
+margin-top: 40px;
+margin-bottom: 6px;
+}
+
+.blogers-2 .vladimir-text p {
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+    width: 327px;
+    margin-top: 10px;
+}
+
+
+.blogers-2 .vladimir-text .text {
+    display: flex;
+}
+
+.blogers-2 .vladimir-text .text h3 {
+    width: 43px;
+    height: 48px;
+}
+
+.blogers-2 .vladimir-text .text p {
+    width: 197px;
+    height:48px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.blogers-2 .okcana {
+    display: flex;
+    width: 655px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.blogers-2 .okcana-img img {
+    width: 240px;
+    height: 240px;
+    flex-shrink: 0;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blogers-2  .okcana-text .title-4 {
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    width: 162px;
+    margin-top: 40px;
+    margin-bottom: 6px;
+}
+
+.blogers-2  .okcana-text p {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 162.5% */
+width: 327px;
+margin-bottom: 40px;
+}
+
+.blogers-2  .okcana-text .text {
+    display: flex;
+}
+.blogers-2  .okcana-text .text h3 {
+    width: 43px;
+    height: 48px;
+}
+
+
+.blogers-2  .okcana-text .text p {
+    width: 107px;
+    height: 48px;
+    margin-left: 15px;
+    
+}
+
+.blogers button {
+    margin-bottom: 150px;
+
+    margin-top: 50px;
+    width: 240px;
+height: 66px;
+border:none;
+cursor: pointer;
+flex-shrink: 0;
+border-radius: 36px;
+background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+}
+.blogers button h3{
+    color: var(--1, #FFF);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+    width: 240px;
+height: 22px;
+flex-shrink: 0;
+text-align: center;
+align-items:center;
+}
+
+.blogers button:hover{
+    background:#0c5236;
+}
+
+.words_container h2 {
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 127.273% */
+width: 1173px;
+margin-bottom: 15px;
+}
+.words_container p {
+    width: 1400px;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 36px; /* 200% */
+}
